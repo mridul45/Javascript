@@ -27,3 +27,9 @@ console.log(Math.floor(4.4))
 
 console.log(Math.random())
 console.log(Math.random()*10)
+
+const min = 10
+const max = 20
+
+let value = Math.random()*(max-min+1) + min
+console.log(value)
