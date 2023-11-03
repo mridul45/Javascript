@@ -11,3 +11,6 @@ let gameName = new String("Mridul")
 console.log(gameName) // Object here
 
 console.log(gameName.__proto__) // Empty object
+
+const newString = gameName.substring(0,3)
+console.log(newString)
