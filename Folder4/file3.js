@@ -16,11 +16,16 @@ console.log(values)
 
 const nums = [1,2,3,4,5,6,7,8,9,10]
 
-newNums = nums.filter((num) => num>4)
-console.log(newNums)
+// newNums = nums.filter((num) => num>4)
+// console.log(newNums)
 
 // note
 
-const myNums = nums.filter((num) => {
-    return num>4 // Here if we start a scop then we have to add a return statement
-})
+// const myNums = nums.filter((num) => {
+//     return num>4 // Here if we start a scop then we have to add a return statement
+// })
+
+//chaining
+
+const newNums = nums.map((num) => num*10).map((num) => num+1)
+console.log(newNums)
